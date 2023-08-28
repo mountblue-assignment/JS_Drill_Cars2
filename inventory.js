@@ -1,5 +1,6 @@
 
-let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year":2009},
+exports.inventory = [
+{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year":2009},
 {"id":2,"car_make":"Mazda","car_model":"Miata MX-5","car_year":2001},
 {"id":3,"car_make":"Land Rover","car_model":"Defender Ice Edition","car_year":2010},
 {"id":4,"car_make":"Honda","car_model":"Accord","car_year":1983},
@@ -48,7 +49,8 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":47,"car_make":"Volkswagen","car_model":"Jetta","car_year":2007},
 {"id":48,"car_make":"Dodge","car_model":"Magnum","car_year":2008},
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
-{"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
+{"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}
+];
 
 // ==== Problem #1 ====
 // The dealer can't recall the information for a car with an id of 33 on his lot. Help the dealer find out which car has an id of 33 by calling a function that will return the data for that car. Then log the car's year, make, and model in the console log in the format of:
